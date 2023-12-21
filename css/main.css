@@ -1,0 +1,263 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.conteiner {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.header {
+	background-color: rgb(83, 163, 255);
+	padding-top: 60px;
+	padding-bottom: 120px;
+	color: white;
+
+}
+.mraper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer {
+	width: 500px;
+}
+
+.title {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+}
+.title_span {
+	font-size: 48px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.offer.text {
+	font-size: 14px;
+	width: 60%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.btm {
+	width: 200px;
+	height: 50px;
+	background-color: rgb(236, 199, 31);
+	color: black;
+	font-size: 16px;
+	display: block;
+	text-decoration: none;
+	font-weight: 700;
+	border: none;
+}
+
+.Offer_img {
+	width: 40%;
+}
+
+.wish_title {
+	width: 100%;
+	font-size: 20px;
+	font-weight: 700;
+	color: black;
+	text-align: center;
+	margin-top: 50px;
+}
+.wishes {
+	display: flex;  /*Чтобы картинки вставали в один ряд*/
+	justify-content: space-between; /*автоматически одинаковоое расстояние между картинками */
+	align-items: center; 
+}
+.wishes_item {
+	display: flex;
+	flex-direction: column; /*Чтобы были в колонку*/
+	justify-content: center;
+	align-items: center;
+	width: 30%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.wishes_item p {
+	text-align: center;
+}
+
+.main {
+	width: 100%;
+
+}
+
+.block {
+	width: 100%; /* Ширина элемента */
+	/*  height: 40vh; /* Высота элемента */
+	/*  background-color: rgba(229, 239, 247, 0.767); /* Цвет фона элемента. */
+	display: flex; /* Тип отображения элемента. */
+	justify-content: center; /* Выравнивание контента по оси. */
+	align-items: center; /* Выравнивание элементов по оси */
+	flex-direction: column;
+}
+
+.form {
+	width: 300px; 
+	/* height: 280px; */
+	display: flex; 
+	justify-content:center; 
+	flex-direction: column; /* Направление флексбокса. */
+	/* padding-top: 50px; /* определяет расстояние между 
+	верхней границей элемента и его содержимым.*/
+	/* padding-bottom: 80px; /* определяет расстояние между 
+	нижней границей элемента и его содержимым.*/
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+input {
+	width: 100%;
+	height: 30px;
+	margin: 15px auto; /*это пространство между элементами, 
+	которое определяется в единицах измерения CSS. */
+}
+
+.form_text {
+	text-align: center; /*это CSS свойство, которое выравнивает 
+	текст внутри элемента. */
+	width: 100%; /* */
+	 /* height: 50px; /* */
+	margin-top: 30px; /* это пространство сверху элемента */
+	margin-bottom: 30px;
+	font-size: 40px; /* Размер шрифта. */
+	text-transform: full-width; /* свойство, позволяющее 
+	изменять регистр текста.*/
+	font-weight: 700; /* Вес шрифта */
+	color: black; /* */
+}
+
+.SSS {
+	background-color: yellow; /* */
+	width: 300px;
+	height: 40px;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+footer {
+	width: 100%;
+}
+
+.bottom {
+	width: 100%;
+	height: 15vh; /* */
+	background-color: rgb(83, 163, 255); /* */
+	display: flex; /* */
+	justify-content: center; /* */
+	align-items: center; /* */
+}
+.bottom_text {
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	margin-top: 50px;
+	font-size: 10px;
+	text-transform: full-width;
+	font-weight: 700;
+	color:white;
+}
+
+.logo
+{
+    width: 150px;
+    border-radius: 10px;
+    margin: 30px auto;
+    background-color: brown;
+    text-align: center;
+    line-height: 60px;
+    padding: 0px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 7px 10px rgb(184, 94, 94);
+    position: relative;
+}
+
+.logo:hover{
+    background: rgb(214, 124, 20);
+    box-shadow: 0 4px 8px rgb(184, 94, 94);
+    top: 2px;
+	transition-duration: 2s;
+}
+
+.wish_title:hover{
+    background-color: rgb(245, 146, 33);
+    transition-timing-function: ease-out;
+	transition: all 2s ease 0s;
+}
+
+.wishes:hover{
+    background-color: rgb(245, 146, 33);
+    transition-timing-function: ease-out;
+	transition: all 2s ease 0s;
+}
+
+
+#form {
+    width: 100%;
+    margin: auto;
+	margin-top: 50px;
+	
+}
+
+.row {
+    margin: 10px 10px;
+}
+
+
+
+.text {
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.order {
+    padding-top: 20px;
+}
+
+#sendOrder {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(248, 146, 38);
+    text-align: center;
+    padding-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+
+    #sendOrder:hover {
+        cursor: pointer;
+    }
+
+.orderInfo {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+.orderSummary {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+.PPPGGG {
+	background-color: rgba(229, 239, 247, 0.767);
+}
